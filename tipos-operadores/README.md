@@ -1,18 +1,34 @@
-## Getting Started
+Esse diretório sera usado para guardar algumas anotações do modulo de Operadores.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+        classe Operadores.java
 
-## Folder Structure
+        String nome = "GLEYSON";
+        int idade = 22;
+        double peso = 68.5;
+        char sexo = 'M';
+        boolean doadorOrgao = false;
+        Date dataNascimento = new Date();
 
-The workspace contains two folders by default, where:
+        classe Operadores.java
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+        double soma = 10.5 + 15.7;  /*soma*/
+        int subtração = 113 - 25;   /*subtração*/
+        int multiplicacao = 20 * 7; /*multiplicação*/
+        int divisao = 15 / 3;   /*divisão*/
+        int modulo = 18 % 3;    /*sobra da operação*/
+        double resultado = (10 * 7) + (20/4);   /*uma mistura de operadores*/
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+        //classe Operadores.java
+    
+        //qual o resultado das expressoes abaixo?
+        String concatenacao ="?"; 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+        concatenacao = 1+1+1+"1"; 
 
-## Dependency Management
+        concatenacao = 1+"1"+1+1;
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+        concatenacao = 1+"1"+1+"1";
+
+        concatenacao = "1"+1+1+1;
+
+        concatenacao = "1"+(1+1+1);
